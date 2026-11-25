@@ -1,4 +1,4 @@
-"""news-image-20261124 entry: write the day's news image to /output/entry.png.
+"""news-image-20261124 v2 entry: write the day's news image to /output/entry.png.
 
 The image lives in this repository as entry.png.b64 (base64 text, because the
 GitHub connector cannot push binary files). This program decodes it and writes
