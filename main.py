@@ -1,33 +1,30 @@
-"""news-image-20261124 v2 entry: write the day's news image to /output/entry.png.
+"""Decode the bundled base64 entry image and write it to the output directory.
 
-The image lives in this repository as entry.png.b64 (base64 text, because the
-GitHub connector cannot push binary files). This program decodes it and writes
-the exact PNG bytes to the output directory. It uses only the standard library,
-needs no network, and is fully deterministic: every run produces identical bytes.
-
-Local test:
-    mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
+The competition entry image is stored in this repository as base64 text in
+``entry.png.b64`` (next to this program) rather than as a binary file. This
+program decodes that text and writes the resulting PNG to
+``$MAKEFUN_OUTPUT_DIR/entry.png`` (``/output`` when the variable is unset).
 """
 
 import base64
 import os
-from pathlib import Path
 
-HERE = Path(__file__).resolve().parent
-B64_PATH = HERE / "entry.png.b64"
-OUTPUT_NAME = "entry.png"
+PNG_SIGNATURE = b"\x89PNG\r\n\x1a\n"
 
 
 def main() -> None:
-    output_dir = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
-    output_dir.mkdir(parents=True, exist_ok=True)
-
-    png_bytes = base64.b64decode(B64_PATH.read_text(encoding="ascii"), validate=True)
-    if not png_bytes.startswith(b"\x89PNG\r\n\x1a\n"):
-        raise ValueError("entry.png.b64 does not decode to a PNG image")
-
-    output_path = output_dir / OUTPUT_NAME
-    output_path.write_bytes(png_bytes)
+    here = os.path.dirname(os.path.abspath(__file__))
+    b64_path = os.path.join(here, "entry.png.b64")
+    with open(b64_path, "r", encoding="ascii") as f:
+        text = f.read()
+    data = base64.b64decode(text, validate=True)
+    if not data.startswith(PNG_SIGNATURE):
+        raise SystemExit("decoded data does not start with the PNG signature")
+    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output"
+    os.makedirs(out_dir, exist_ok=True)
+    out_path = os.path.join(out_dir, "entry.png")
+    with open(out_path, "wb") as f:
+        f.write(data)
 
 
 if __name__ == "__main__":
