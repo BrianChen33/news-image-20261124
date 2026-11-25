@@ -9,82 +9,87 @@ An entry for the [make.fun](https://make.fun/bounty/news-image-20261124) bounty
 24 November 2026 in 33 panels, each verified against news reported that day.
 This is a from-scratch rebuild (v2): the first build was rejected on a
 transcript technicality, so the image, the program and this README were all
-remade in a fresh session.
+remade in a fresh session. v3 revises v2 per a GPT review (ChatGPT Work,
+GPT-6.2 Astra High): factual corrections, a dominant Hormuz lead, and a
+5-column grid.
 
 ## The 33 stories
 
-Top stories:
+Lead stories:
 
-- **HUANG BACK AT NVIDIA** — Board reinstates Jensen Huang as CEO; shares soar
-  31.5% Monday, best day since 2003 (+$952bn), then slide 6% Tuesday.
-- **HORMUZ OIL TRAFFIC −40%** — Iran vows "all available means" against the US
-  naval blockade; two tankers hit mines and catch fire Tuesday; 25+ tankers hit
-  in a week.
-- **COP31 COLLAPSES** — Antalya climate talks end with no deal, the longest COP
-  ever and the first failure since 2009, after fossil-fuel language is stripped
-  from the text.
+- **HORMUZ CROSSINGS PLUNGE 45%** — Tracked weekly vessel crossings fell
+  from 226 (Nov 1-7) to 125 (Nov 17-23), Marine Traffic data; Iran's navy
+  is blamed for mine strikes on two tankers Tuesday; Tehran vows "all
+  available means" vs the US blockade.
+- **HUANG APOLOGISES TO STAFF AS NVIDIA FALLS 5.9%** — At an hour-long
+  all-hands meeting Tuesday, he admits code-of-conduct violations and says
+  he is in therapy (Reuters).
+- **EU SEEKS OVERHAUL OF CLIMATE TALKS AFTER COP31 FAILURE** — Hoekstra
+  tells the FT the EU will propose scrapping consensus rules after Sunday's
+  collapse; the draft dropped fossil fuels.
 
 The other 30:
 
-- **TSMC HITS LIMIT UP** — TSMC +9.9% Tuesday, hitting its daily trading limit;
-  +$158bn in a single session.
-- **ASIA SURGES** — Nikkei +4%, Taiwan Taiex +9%, Korea Kospi +7% as the AI
-  trade revives.
-- **WALL ST SPLIT** — S&P −0.5%, Nasdaq −1.5% Tuesday; Dow +0.9%, closing above
+- **TAIWAN STOCKS JUMP 9%** — Taiex +8.99% to a record 40,122; TSMC hits
+  its 10% limit, +$158bn in a day.
+- **EBOLA VACCINE DEAL FOR CONGO** — Gavi agrees to buy up to 1.5m doses
+  if trials succeed; the outbreak has killed 5,700+.
+- **GAZA STRIKES KILL SEVEN** — Israeli strikes kill Hamas internal
+  security chief Naim Abu Nahal and six others.
+- **ZAPORIZHZHIA STRIKE WOUNDS 48** — Russian overnight strike kills two
+  and wounds 48, including four children.
+- **NATO VOWS SPACE DEFENCE** — Rutte, asked about reports of a Russian
+  nuclear satellite, pledges to keep allies safe.
+- **ASIAN MARKETS RALLY** — Nikkei +3.91% and Kospi +6.32% as Huang's
+  return revives the AI trade.
+- **BRAZIL PASSES LULA'S $10BN FISCAL PACKAGE** — Lower house approves
+  spending curbs; Lula to sign; more measures to follow.
+- **CANDY FACTORY FIRE KILLS 26** — Indonesia confirms 26 dead in the
+  Serang blaze; most died trying to reach the exit.
+- **700,000+ RUSSIAN DEATHS ESTIMATED** — Leaked Rosstat data puts
+  confirmed deaths near 490,000; toll likely far higher.
+- **WALL ST SPLITS** — S&P -0.5%, Nasdaq -1.5%; Dow +0.9%, closing above
   50,000.
-- **ANTHROPIC BELOW IPO** — Shares fall 6.5% to just under $82, below the $83
-  IPO price.
-- **ANALOG DEVICES SINKS** — ADI −17% after a weak earnings outlook disappoints
-  investors.
-- **IRAN: ALL MEANS** — Tehran vows to use all tools to confront the US naval
-  blockade of its oil.
-- **TWO TANKERS HIT MINES** — Two oil tankers strike mines and catch fire in the
-  Strait of Hormuz on Tuesday.
-- **14 TANKERS READY** — Iran readies 14 tankers at Kharg Island to test the US
-  blockade.
-- **FOSSIL FUELS CUT** — Every mention of fossil fuels stripped from the final
-  text after Saudi pushback.
-- **GAZA: SECURITY CHIEF KILLED** — Israeli strikes kill Hamas security chief
-  Naeem Abu Nahel and six others.
-- **ZAPORIZHZHIA HIT** — Russian overnight strike kills 2, wounds 40 incl.
-  4 children; apartment block hit.
-- **NATO: SPACE WARNING** — Rutte: NATO will defend space; Russia reportedly
-  readies a nuclear-armed satellite.
-- **RUSSIAN JETS IN KOREAN ADIZ** — Russian aircraft enter South Korea's air
-  defence zone over waters near Japan.
-- **700,000 RUSSIAN DEAD** — New analysis puts Russian soldiers killed in the
-  Ukraine war above 700,000.
-- **GERMANY GETS DELTA** — Germany first to access Ukraine's Delta battlefield
-  management system.
-- **ZELENSKY: NATO BID** — Zelensky urges NATO entry for Ukraine at a Berlin
-  parliamentary meeting.
-- **UK SANCTIONS MYANMAR** — UK sanctions Myanmar's president and generals after
-  the ICJ genocide ruling on the Rohingya.
-- **STATES SUE MUSK** — Virginia and Oregon sue SpaceX and X over Grok "spicy
-  mode" sexualised images.
-- **AI CHEAT BOUNTY** — South Korea offers up to $375,000 to catch AI cheating
-  in the college entrance exam.
-- **US BLACKLISTS MEGASPEED** — Commerce blacklists the Singapore cloud firm
-  tied to the Huang spy affair.
-- **PENTAGON SLAMS CANADA** — US accuses Canada of falling short as a partner in
-  defending North America.
-- **TRUMP: DEATH PENALTY PUSH** — Trump to order the DOJ to speed federal death
-  sentences for child killers.
-- **GIULIANI MEDAL** — Trump awards Rudy Giuliani the Medal of Freedom in a
+- **GERMANY TO USE UKRAINE'S DELTA** — Berlin signs a letter of intent
+  for first access to the DELTA system.
+- **UK SANCTIONS FIVE MYANMAR OFFICERS** — London acts after the ICJ
+  genocide ruling; the president is not among those named.
+- **STATES SUE MUSK FIRMS OVER GROK IMAGES** — Virginia and Oregon allege
+  Grok's "spicy mode" made sexualised images of children.
+- **KOREA TIGHTENS SCHOOL EXAMS** — Metal detectors and Wi-Fi shutdowns
+  to catch AI cheating in school exams.
+- **SINGAPORE KEEPS PROBING MEGASPEED** — PM Wong says the probe continues
+  after the US blacklist over chip diversion.
+- **ANTHROPIC FALLS BELOW IPO PRICE** — Shares -6.5% to $81.90, under the
+  $83 float price.
+- **CANADA REJECTS PENTAGON REBUKE** — "We don't report to the United
+  States," McGuinty says after Monday's Pentagon memo.
+- **TRUMP SIGNS DEATH PENALTY MEMO** — Order signed Monday widens federal
+  death cases and seeks faster executions.
+- **ANMER HALL BREAK-IN ARRESTS** — Two men arrested Tuesday after a
+  suspected break-in at William and Kate's country home.
+- **GIULIANI RECEIVES MEDAL OF FREEDOM** — Trump honours Giuliani in a
   private Oval Office ceremony.
-- **ANMER HALL BREAK-IN** — Two men arrested after a break-in at Prince William's
-  Norfolk home; royals away.
-- **LANDMINE TOLL 7,000** — Global landmine casualties hit a 5-year high;
-  Myanmar and Syria worst.
-- **INDIA AID FOR NEPAL** — India announces $1.6bn in flood relief for Nepal.
-- **TAIWAN: POLL WARNING** — Taipei warns of Chinese interference ahead of
-  Saturday's local elections.
-- **DENMARK PHONE BAN** — Denmark to ban school phones up to 10th grade after
-  poor PISA results.
-- **GERMAN BOMB THREATS** — Hundreds of schools across Germany hit by bomb
-  threats, police say.
-- **SAUDI SKYSCRAPER HIT** — Saudi condemns "terrorist attack" after a Riyadh
-  skyscraper is hit twice in a week.
+- **ANALOG DEVICES SINKS 17%** — Record quarter, but mixed guidance after
+  an earnings beat spooks investors.
+- **MINES KILLED OR INJURED NEARLY 7,000 IN 2025** — Five-year high, the
+  ICBL reports; Myanmar and Syria lead the toll.
+- **INDIA PLEDGES $1.62BN FOR NEPAL REBUILD** — Grant plus energy credit
+  line for reconstruction after August's floods.
+- **DENMARK PLANS SCHOOL PHONE BAN FOR 2027** — Ministry proposes banning
+  phones through 10th grade, citing classroom distraction.
+- **TAIWAN'S DPP WARNS OF POLL INTERFERENCE** — DPP lawmakers accuse China
+  of funding and flight deals ahead of Saturday's vote.
+- **HOAX BOMB THREATS HIT SCHOOLS** — Hoax emails reach hundreds of
+  schools in Germany and Denmark; police see no danger.
+- **RIYADH TOWER ATTACK INJURES 11** — Houthi drone hits the PIF Tower
+  for the second time in a week, officials say.
+- **ZELENSKY URGES FOUR-WAY PEACE TALKS** — In a video address to NATO
+  lawmakers in Berlin, he renews his NATO membership plea.
+- **MERZ: 2008 NATO SNUB WAS A MISTAKE** — Germany's chancellor says
+  withholding a membership path in 2008 was an error.
+- **RUSSIAN JETS TRIGGER ISLAND ALERT** — Five warplanes near Ulleung
+  Island; Seoul issues a first air-raid alert.
 
 Sources: Reuters, CNN, Al Jazeera, AP, SCMP, Just Security — all dated
 24 November 2026.
@@ -110,11 +115,13 @@ Then check the output:
 cmp out/entry.png entry.png   # must be identical
 ```
 
-Verified locally (2026-11-25): the image is 1024×1024 px, 146,288 bytes
+Verified locally (2026-11-25, v3): the image is 1024×1024 px, 171,337 bytes
 (under the 1 MiB limit), and two runs produce byte-identical output
-(sha256 `1d16e8277e07a2840bdedec995a4788c862476fcb99bcfed11e8a9af10817c10`).
-Also verified as uid 65534 against a root-owned output directory: exit 0,
-same hash.
+(sha256 `12f4342fb65ce4b236a49ee5abff6e0077643caec95a8214c9274dfac79f574d`).
+The committed `entry.png.b64` (228,452 chars, no trailing newline) decodes
+with `validate=True` to the same hash. Also verified as uid 65534 against a
+root-owned output directory: exit 0, same hash. Legibility checked at 512 px:
+the leads are immediately legible and grid headlines scan without zooming.
 
 ## License
 
